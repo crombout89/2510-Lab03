@@ -8,7 +8,7 @@ void non_negative_difference(double num1, double num2) {
     } else if (num1 < num2) {
       printf("The difference is %lf.", num2 - num1);
     } else {
-      printf("They are the same.");
+      printf("0");
     }
 }
 

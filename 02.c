@@ -6,7 +6,7 @@ void smallest_value(int num1, int num2) {
     if (num1 > num2) {
         printf("%d is the smaller value.\n", num2);
      } else if (num1 < num2) {
-        printf("%d is the smaler value.\n", num1);
+        printf("%d is the smaller value.\n", num1);
      } else {
        printf("They are the same.");
      }

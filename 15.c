@@ -11,8 +11,9 @@ int fibonacci(int nth_term) {
 }
 
 int main() {
-    int nth_term = 20;
-    int result = fibonacci(nth_term);
-    printf("Term #%d in the Fibonacci Sequence: %d", nth_term, result);
+    for (int nth_term = 1; nth_term <= 20; nth_term++) {
+        int result = fibonacci(nth_term);
+        printf("Term #%d in the Fibonacci Sequence: %d\n", nth_term, result);
+    }
     return 0;
 }

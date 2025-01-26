@@ -6,7 +6,7 @@
 
 int main() {
     float input;
-    printf("Enter a positive float value to caluculate 2sin(x):\n");
+    printf("Enter a positive float value to calculate 2sin(x):\n");
     scanf("%f", &input);
 
     float result = 2 * sin(input) * cos(input);

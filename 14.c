@@ -16,7 +16,7 @@ void reverse_number(int input) {
 
 int main() {
     int input;
-    printf("Enter an integer value to reverse:\n");
+    printf("Enter a positive integer value to reverse:\n");
     scanf("%d", &input);
     reverse_number(input);
 
