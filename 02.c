@@ -2,21 +2,23 @@
 
 #include <stdio.h>
 
-void smallest_value(int num1, int num2) {
+int smallest_value(int num1, int num2) {
     if (num1 > num2) {
-        printf("%d is the smaller value.\n", num2);
-     } else if (num1 < num2) {
-        printf("%d is the smaller value.\n", num1);
-     } else {
-       printf("They are the same.");
+        return num2;
      }
+    if (num1 < num2) {
+        return num1;
+     }
+    return 0;
 }
+
 
 int main() {
     int num1, num2;
     printf("Enter two numbers separated by a space:\n");
     scanf("%d %d", &num1, &num2);
-    smallest_value(num1, num2);
+    int result = smallest_value(num1, num2);
+    printf("%d", result);
 
     return 0;
 }
